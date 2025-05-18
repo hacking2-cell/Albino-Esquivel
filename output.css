@@ -1430,6 +1430,10 @@
     --tw-gradient-from: #387000;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
   }
+  .from-\[rgb\(56\,112\,0\)\] {
+    --tw-gradient-from: rgb(56,112,0);
+    --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
+  }
   .to-\[\#448700\] {
     --tw-gradient-to: #448700;
     --tw-gradient-stops: var(--tw-gradient-via-stops, var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position));
@@ -2528,7 +2532,7 @@
   }
 }
 .bg-hero {
-  background-image: url('assets/images/pexels-magic-k-24827758-6728933.webp');
+  background-image: url('assets/images/pexels-magic-resized.webp');
 }
 @property --tw-translate-x {
   syntax: "*";
